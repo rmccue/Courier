@@ -6,6 +6,10 @@
  * Note: this file must be parsable by PHP 5.2.
  */
 
+// WHAT ARE YOU DOING
+echo '<h1>DO NOT USE THIS. REMOVE THIS PLUGIN AND KEEP LIVING YOUR LIFE.</h1>';
+exit;
+
 // Sanity check
 if ( version_compare( PHP_VERSION, '5.3.2', '<' ) ) {
 	status_header( 500 );
